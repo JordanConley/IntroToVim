@@ -12,6 +12,6 @@ $(EXE): $(OBJ)
 
 .PHONY:=clean
 clean: 
-	rm $(OBJ) $(EXE)
+	rm $(OBJ) $(DEP) $(EXE)
 	
 -include $(DEP)
